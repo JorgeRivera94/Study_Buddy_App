@@ -24,9 +24,7 @@ st.write(
 st.header(
   'File Upload'
 )
-st.write(
-  'Upload file for Study Buddy to read.'
-)
+st.file_uploader('Upload file for Study Buddy to read.',accept_multiple_files=True)
 st.header(
   'Ask your Study Buddy'
 )
