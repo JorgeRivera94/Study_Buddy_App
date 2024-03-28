@@ -6,7 +6,7 @@ st.title(
 st.write(
   'Breaking down dense topics without derailing the session!'
 )
-# image
+# image to be added later
 st.header(
   'About Study Buddy'
 )
@@ -33,5 +33,5 @@ st.header(
 st.write(
   'Have questions about the submitted file? Lets go through it!'
 )
-st.selectbox('What should we focus on?',['Option 1', 'Option 2'])
+st.selectbox('What should we focus on?',['Explain', 'Follow up questions', 'Test my knowledge', 'Rephrase text', 'Proof', 'Algorithm', 'Proof', 'Make assumptions'])
 st.text_input('How can I help?')
